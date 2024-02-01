@@ -1,6 +1,6 @@
 <?php
 require '../constants/settings.php';
-date_default_timezone_set($default_timezone);
+date($default_timezone);
 $apply_date = date('m/d/Y');
 
 session_start();
@@ -54,7 +54,7 @@ include '../constants/db_config.php';
     {
 	 print '<br>
 	 <div class="alert alert-warning">
-     You have already applied this job before , you can not apply again.
+     You have already applied to this job before , you can not apply again.
 	 </div>
      ';
 	}	
