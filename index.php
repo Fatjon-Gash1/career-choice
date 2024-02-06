@@ -87,16 +87,12 @@ include 'constants/check-login.php';
 							</li>							
 							<li>
 								<a href="applicants.php">applicants</a>
-							</li>
-							
+							</li>							
 							<li>
 								<a href="contact.php">Contact Us</a>
 							</li>
-
-						</ul>
-				
+						</ul>				
 					</div>
-
 					<div class="nav-mini-wrapper">
 						<ul class="nav-mini sign-in">
 						<?php
@@ -111,63 +107,40 @@ include 'constants/check-login.php';
 						}
 						
 						?>
-
 						</ul>
-					</div>
-				
-				</div>
-				
-				<div id="slicknav-mobile"></div>
-				
-			</nav>
-
-			
-			<div id="registerModal" class="modal fade login-box-wrapper" tabindex="-1" style="display: none;" data-backdrop="static" data-keyboard="false" data-replace="true">
-			
+					</div>				
+				</div>				
+				<div id="slicknav-mobile"></div>				
+			</nav>			
+			<div id="registerModal" class="modal fade login-box-wrapper" tabindex="-1" style="display: none;" data-backdrop="static" data-keyboard="false" data-replace="true">			
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h4 class="modal-title text-center">Create your account for free</h4>
-				</div>
-				
-				<div class="modal-body">
-				
-					<div class="row gap-20">
-					
+				</div>				
+				<div class="modal-body">				
+					<div class="row gap-20">					
 						<div class="col-sm-6 col-md-6">
 							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Recruiter</a>
 						</div>
 						<div class="col-sm-6 col-md-6">
 							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Applicant</a>
 						</div>
-
-					</div>
-				
-				</div>
-				
+					</div>				
+				</div>				
 				<div class="modal-footer text-center">
 					<button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Close</button>
-				</div>
-				
-			</div>
-
-			
+				</div>				
+			</div>			
 		</header>
-
-		<div class="main-wrapper">
-		
+		<div class="main-wrapper">		
 			<div class="hero" style="background-image:url('images/hero-header/11.jpg');">
 				<div class="container">
-
 					<h1>Start your Career</h1>
 					<p>By finding your dream job on JobLand</p>
-
-					<div class="main-search-form-wrapper">
-					
-						<form action="job-list.php" method="GET" autocomplete="off">
-					
+					<div class="main-search-form-wrapper">					
+						<form action="job-list.php" method="GET" autocomplete="off">					
 							<div class="form-holder">
-								<div class="row gap-0">
-								
+								<div class="row gap-0">								
 									<div class="col-xss-6 col-xs-6 col-sm-6">
 										<select class="form-control" name="category" required/>
 										<option value="">Select job category</option>
