@@ -64,43 +64,27 @@ include 'constants/check-login.php';
 
   </style>
 <body class="home">
-
-
 	<div id="introLoader" class="introLoading"></div>
-
 	<div class="container-wrapper">
-
 		<header id="header">
-
 			<nav class="navbar navbar-default navbar-fixed-top navbar-sticky-function">
-
-				<div class="container">
-					
+				<div class="container">			
 					<div class="logo-wrapper">
 						<div class="logo">
 							<a href="./"><img src="images/main_logo.png" alt="Logo" /></a>
 						</div>
-					</div>
-					
-					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
-					
-						<ul class="nav navbar-nav" id="responsive-menu">
-						
-							<li>
-							
-								<a href="./">Home</a>
-								
-							</li>
-							
+					</div>					
+					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">					
+						<ul class="nav navbar-nav" id="responsive-menu">						
+							<li>							
+								<a href="./">Home</a>								
+							</li>							
 							<li>
 								<a href="job-list.php">Job List</a>
-
-							</li>
-							
+							</li>							
 							<li>
 								<a href="recruiters.php">Recruiters</a>
-							</li>
-							
+							</li>							
 							<li>
 								<a href="applicants.php">applicants</a>
 							</li>
